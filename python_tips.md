@@ -194,6 +194,143 @@ print({**dict_0, **dict_1})
 - it simplify the process of the import 
 - Use to make a directory into library 
 
+### Project structue 
+
+- make a main folder with project name 
+
+- initilate the git init in main folder
+
+- Add the README fille ASAP
+
+- make .gitignore file
+
+- make two folders test and src (source)
+
+- src can have multiple folders that hold different files
+
+- MVC file structure for the backend development (model, view, controller)
+
+- Can use Github Project board for project progress
+
+  
+
+  ### Small project structure 
+
+  - The file structure - 
+    - run , helpers , constant
+    - run (has the minimal files as main files)
+    - helpers has all the main functions
+    - constant (has all the constant values)
+
+  
+
+  ### Complex project structue 
+
+  - The file stucture - 
+    - Directory name as per function 
+    - the directory should have the (dunder_init_dunder.py) file
+    - run file as the parent file in above the directory
+    - Sample structure 
+      - run.py or main.py
+      - folder_1 
+        - helper.py
+        - function.py
+        - constant.py
+        - __init__.py  (has double dunder)
+      - folder_2
+        - helpers_1.py
+        - functiion_2.py
+        - __init__.py (has double dunder)
+  - init file has all the imports to help 
+
+  ### Package structure examples - 
+
+  ```bash
+  packaging_tutorial/
+  ├── LICENSE
+  ├── pyproject.toml
+  ├── README.md
+  ├── setup.cfg
+  ├── src/
+  │   └── example_package/
+  │       ├── __init__.py
+  │       └── example.py
+  └── tests/
+  ```
+
+  ```
+  helloworld/
+  │
+  ├── .gitignore
+  ├── helloworld.py
+  ├── LICENSE
+  ├── README.md
+  ├── requirements.txt
+  ├── setup.py
+  └── tests.py
+  ```
+
+  ```
+  helloworld/
+  │
+  ├── helloworld/
+  │   ├── __init__.py
+  │   ├── helloworld.py
+  │   └── helpers.py
+  │
+  ├── tests/
+  │   ├── helloworld_tests.py
+  │   └── helpers_tests.py
+  │
+  ├── .gitignore
+  ├── LICENSE
+  ├── README.md
+  ├── requirements.txt
+  └── setup.py
+  ```
+
+  ```
+  helloworld/
+  │
+  ├── bin/
+  │
+  ├── docs/
+  │   ├── hello.md
+  │   └── world.md
+  │
+  ├── helloworld/
+  │   ├── __init__.py
+  │   ├── runner.py
+  │   ├── hello/
+  │   │   ├── __init__.py
+  │   │   ├── hello.py
+  │   │   └── helpers.py
+  │   │
+  │   └── world/
+  │       ├── __init__.py
+  │       ├── helpers.py
+  │       └── world.py
+  │
+  ├── data/
+  │   ├── input.csv
+  │   └── output.xlsx
+  │
+  ├── tests/
+  │   ├── hello
+  │   │   ├── helpers_tests.py
+  │   │   └── hello_tests.py
+  │   │
+  │   └── world/
+  │       ├── helpers_tests.py
+  │       └── world_tests.py
+  │
+  ├── .gitignore
+  ├── LICENSE
+  └── README.m
+  ```
+
+  
+
 ### Links - 
 
 ```
