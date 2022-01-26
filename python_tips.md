@@ -188,6 +188,12 @@ print({**dict_0, **dict_1})
 - tuple starts with (), []
 - List can be copied and tuple can't be copied
 
+### __init__.py file 
+
+- the init file has all the imports to help for the importing 
+- it simplify the process of the import 
+- Use to make a directory into library 
+
 ### Links - 
 
 ```
