@@ -198,7 +198,7 @@ print({**dict_0, **dict_1})
 
 - make a main folder with project name 
 
-- initilate the git init in main folder
+- initialize the git init in main folder
 
 - Add the README fille ASAP
 
@@ -217,7 +217,7 @@ print({**dict_0, **dict_1})
   ### Small project structure 
 
   - The file structure - 
-    - run , helpers , constant
+    - run (main) , helpers , constant
     - run (has the minimal files as main files)
     - helpers has all the main functions
     - constant (has all the constant values)
@@ -327,6 +327,32 @@ print({**dict_0, **dict_1})
   ├── .gitignore
   ├── LICENSE
   └── README.m
+  ```
+
+  ```
+  sound/                          Top-level package
+        __init__.py               Initialize the sound package
+        formats/                  Subpackage for file format conversions
+                __init__.py
+                wavread.py
+                wavwrite.py
+                aiffread.py
+                aiffwrite.py
+                auread.py
+                auwrite.py
+                ...
+        effects/                  Subpackage for sound effects
+                __init__.py
+                echo.py
+                surround.py
+                reverse.py
+                ...
+        filters/                  Subpackage for filters
+                __init__.py
+                equalizer.py
+                vocoder.py
+                karaoke.py
+                ...
   ```
 
   
