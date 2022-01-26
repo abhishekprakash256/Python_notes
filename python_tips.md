@@ -355,7 +355,27 @@ print({**dict_0, **dict_1})
                 ...
   ```
 
-  
+### Make the requirements.txt file 
+
+- Two ways to do
+
+  - In virtual environment use 
+
+    ```
+    pip freeze > requirements.txt
+    ```
+
+  - For directory of the project using pipreqs
+
+    - come one directory up 
+
+    - use command 
+
+      ```
+      pipreqs dir_name/
+      ```
+
+  - Poetry dependencies are also possible 
 
 ### Links - 
 
