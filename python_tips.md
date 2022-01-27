@@ -8,6 +8,8 @@
 - pytest for testing of code 
 - py-coverage for test coverage
 - black formatter for formatting the code
+- pipreqs for requirements.txt
+- Poetry for dependencies and packaging 
 
 
 
@@ -355,6 +357,33 @@ print({**dict_0, **dict_1})
                 ...
   ```
 
+### Data science Project structure 
+
+- License  (file)
+  - CCO 
+  - MIT 
+- Makefile (file)
+- README.md  (file)
+- data (dir)
+  - external
+  - raw
+  - interim
+  - processed
+- models (dir)
+- Notebooks (experiments)
+- references (documentation)
+- reports (Pdf, markdown, docs)
+  - figures
+- requirements.txt  (file)
+- setup.py  (file)
+- src  (dir)
+  - init.py
+  - data 
+
+
+
+
+
 ### Make the requirements.txt file 
 
 - Two ways to do
@@ -381,5 +410,6 @@ print({**dict_0, **dict_1})
 
 ```
 https://www.programiz.com/python-programming/docstrings  (how to put docstring)
+https://www.youtube.com/watch?v=lVvjy5P26cw          (DS project structure)
 ```
 
