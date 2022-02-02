@@ -181,6 +181,48 @@ print({**dict_0, **dict_1})
 
 - use in instead of == to compare
 
+### Python assert
+
+- the assert is use to check the two values , if equal pass otherwise throws error
+
+  ```python
+  x=5
+  assert x == 5  #checks if x has a value 5
+  ```
+
+### Decorators 
+
+- Decorators allow us to wrap another function in order to extend the  behavior of the wrapped function, without permanently modifying it.
+
+  ```python
+  # Python program to illustrate functions
+  # can be treated as objects
+  def shout(text):
+  	return text.upper()
+  
+  print(shout('Hello'))
+  
+  yell = shout
+  
+  print(yell('Hello'))
+  
+  ```
+
+- ```python
+  @gfg_decorator
+  def hello_decorator():
+      print("Gfg")
+  
+  '''Above code is equivalent to -
+  
+  def hello_decorator():
+      print("Gfg")
+      
+  hello_decorator = gfg_decorator(hello_decorator)'''
+  ```
+
+  
+
 ### Tuple vs list
 
 - List are mutable and tuples are not
