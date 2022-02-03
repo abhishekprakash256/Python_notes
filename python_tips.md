@@ -221,7 +221,16 @@ print({**dict_0, **dict_1})
   hello_decorator = gfg_decorator(hello_decorator)'''
   ```
 
-  
+### Pytest catching key errors
+
+- use the pytest.raises()  with error passed
+
+```python
+with pytest.raises(NotImplementedError):  #catching the NotImplementedError
+	my_fun()
+```
+
+
 
 ### Tuple vs list
 
