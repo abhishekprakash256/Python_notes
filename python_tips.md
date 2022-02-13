@@ -5,11 +5,13 @@
 ### Python tools -
 
 -  pylint for code rating 
-- pytest for testing of code 
-- py-coverage for test coverage
-- black formatter for formatting the code
-- pipreqs for requirements.txt
-- Poetry for dependencies and packaging 
+-  pytest for testing of code 
+-  py-coverage for test coverage
+-  black formatter for formatting the code
+-  pipreqs for requirements.txt
+-  Poetry for dependencies and packaging 
+-  Sphinx for document generation for the python files
+-  pydocstyle to check for the file docs
 
 
 
@@ -220,6 +222,8 @@ print({**dict_0, **dict_1})
       
   hello_decorator = gfg_decorator(hello_decorator)'''
   ```
+
+- 
 
 ### Pytest catching key errors
 
