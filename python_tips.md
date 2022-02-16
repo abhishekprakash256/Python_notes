@@ -13,8 +13,6 @@
 -  Sphinx for document generation for the python files
 -  pydocstyle to check for the file docs
 
-
-
 Print in the same line
 
 ```python
@@ -250,6 +248,25 @@ with pytest.raises(NotImplementedError):  #catching the NotImplementedError
 - the init file has all the imports to help for the importing 
 - it simplify the process of the import 
 - Use to make a directory into library 
+
+### Relative import 
+
+- use .with module name 
+- can be fixed by removing . from the relative import system
+
+```python
+from .mother_module import child      
+
+```
+
+- to run the relative file use the module techinue
+- come one directory up and then
+
+```sh
+python3 -m module_name.file_name        #or add the recurring files in it
+```
+
+
 
 ### Project structue 
 
